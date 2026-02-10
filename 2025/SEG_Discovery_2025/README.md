@@ -2,6 +2,8 @@
 
 There are no scripts associated with this article. 
 
+
+
 Title: *Mountain Pass Rare Earth Mine Inspires a New Generation of Economic Geoscience Professionals*
 
 Authors: Rowan Terra, Camryn Parker, M. Israel Martinez
