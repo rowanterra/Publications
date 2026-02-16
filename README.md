@@ -1,6 +1,6 @@
 # Publications
 
-This repository contains code, data processing scripts, figures, and supporting materials associated with my peer-reviewed publications.
+This repository contains code, data processing scripts, figures, and supporting materials associated with RRT's peer-reviewed publications.
 
 Materials are organized **by year**, with each publication contained in its own subdirectory. Each publication folder includes only the components relevant to that work (e.g., analysis scripts, visualization code, or derived datasets).
 
