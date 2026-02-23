@@ -1,8 +1,7 @@
 # Mapping Files
 
 This folder contains spatial data, scripts, and derived products used in:
-
-> **[Publication info – to be added]**  
+**[Publication info – to be added]**  
 
 
 ---
