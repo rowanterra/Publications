@@ -34,7 +34,25 @@ mapping/
 ├── mining-svgrepo-com.svg                                       # optional custom marker
 └── outputs/                                                     # generated figures (created on run)
 ```
+---
 
+## Building `All_Sites.xlsx` from Supplementary Data
+
+To reproduce the figures, you must first create `All_Sites.xlsx` using the manuscript Supplementary Data tables.
+
+`All_Sites.xlsx` must contain **three sheets** with these exact names:
+
+- `Literature`
+- `Datashed`
+- `Backvalidation`
+
+Each sheet must include at minimum the following columns:
+
+- `Site`
+- `Lat`
+- `Long`
+
+Save the resulting file as `All_Sites.xlsx` in the `mapping/` folder (same directory as `mapping.py`).
 ---
 
 ## Requirements
