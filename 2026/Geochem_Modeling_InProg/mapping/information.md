@@ -16,3 +16,5 @@ This directory includes geospatial datasets and processing workflows used to:
 
 ## GeoJSON Files
 
+https://pa-geo-data-pennmap.hub.arcgis.com/datasets/DCNR::coal-fields-in-pennsylvania-high-volatile-bituminous/about
+
