@@ -22,9 +22,9 @@ Output figures are written to an `outputs/` subfolder that is created automatica
 
 ```
 mapping/
-├── mapping_notebook.py                                          # main script
+├── mapping.py                                                   # main script
 ├── mapping_notebook.ipynb                                       # original notebook (reference)
-├── All_Sites_Test.xlsx                                          # site coordinates (sheets: Literature, Datashed, Backvalidation)
+├── All_Sites.xlsx                                               # site coordinates (sheets: Literature, Datashed, Backvalidation)
 ├── Pennsylvania_County_Boundaries.geojson                       # county boundaries
 ├── Coal_Fields_in_Pennsylvania_High-Volatile_Bituminous.geojson
 ├── Coal_Fields_in_Pennsylvania_Medium-Volatile_Bituminous.geojson
@@ -60,7 +60,7 @@ If `svgpath2mpl` is not installed or the `.svg` file is not present, the script 
 Place this folder on your machine with all required files present (see folder structure above), then run:
 
 ```bash
-python mapping_notebook.py
+python mapping.py
 ```
 
 The script will print the resolved paths and site counts to the terminal, then write the five figures to `outputs/`. It can be run from any working directory as long as the script and data files are in the same folder.
@@ -71,9 +71,9 @@ The script will print the resolved paths and site counts to the terminal, then w
 
 | Category | Color | Source |
 |----------|-------|--------|
-| Literature sites | Black | `Literature` sheet in `All_Sites_Test.xlsx` |
-| DataShed sites | Green | `Datashed` sheet in `All_Sites_Test.xlsx` |
-| Back-validation sites | Orange | `Backvalidation` sheet in `All_Sites_Test.xlsx` |
+| Literature sites | Black | `Literature` sheet in `All_Sites.xlsx` |
+| DataShed sites | Green | `Datashed` sheet in `All_Sites.xlsx` |
+| Back-validation sites | Orange | `Backvalidation` sheet in `All_Sites.xlsx` |
 
 Each site table must contain at minimum a `Site`, `Lat`, and `Long` column.
 
