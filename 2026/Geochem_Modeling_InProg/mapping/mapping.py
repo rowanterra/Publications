@@ -52,8 +52,7 @@ except Exception:
 # - `Coal_Fields_in_Pennsylvania_Semi-Anthracite.geojson`
 # - `Coal_Fields_in_Pennsylvania_Anthracite.geojson`
 # - `Pennsylvania_County_Boundaries.geojson`
-# - `Mapping_Sites.xlsx` (must contain sheets: `Datashed`, `Backvalidation`)
-# - `Research_Paper_Sites_TEST.csv`
+# - `All_Sites.xlsx` (must contain sheets: `Literature` `Datashed`, `Backvalidation`)
 # - Optional: `backval_marker.svg` (custom marker for back-validation sites)
 # 
 # If your repository uses different filenames, edit the paths in the next cell.
@@ -80,7 +79,7 @@ COAL_FILES = {
 COUNTIES_FILE = BASE_DIR / "Pennsylvania_County_Boundaries.geojson"
 
 # Single Excel file containing all three site tables
-ALL_SITES_XLSX = BASE_DIR / "All_Sites_Test.xlsx"  # sheets: Datashed, Backvalidation, Literature
+ALL_SITES_XLSX = BASE_DIR / "All_Sites.xlsx"  # sheets: Datashed, Backvalidation, Literature
 
 BACKVAL_SVG = BASE_DIR / "mining-svgrepo-com.svg"  # optional
 
